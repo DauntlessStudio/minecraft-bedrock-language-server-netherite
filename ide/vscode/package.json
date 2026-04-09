@@ -1,13 +1,13 @@
 {
   "description": "An extension that provides code completion, validations, formatters, diagnostics, cheat-sheets, code-actions, creation of files, and development tools to help develop Minecraft Bedrock content",
-  "displayName": "Blockception's Minecraft Bedrock Development",
+  "displayName": "Blockception's Minecraft Bedrock Development For Netherite",
   "homepage": "https://github.com/Blockception/minecraft-bedrock-language-server",
   "icon": "resources/logo.png",
   "license": "BSD-3-Clause",
   "main": "./lsp/client.js",
-  "name": "blockceptionvscodeminecraftbedrockdevelopmentextension",
+  "name": "blockceptionvscodeminecraftbedrockdevelopmentextensionnetherite",
   "publisher": "BlockceptionLtd",
-  "version": "9.0.29",
+  "version": "9.0.29-netherite.0",
   "pricing": "Free",
   "activationEvents": [
     "onLanguage:bc-minecraft-language",

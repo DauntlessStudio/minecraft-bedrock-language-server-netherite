@@ -69,7 +69,8 @@ function isJson(doc: TextDocument) {
 }
 
 function defaultRegex(id: string) {
-  return new RegExp(`\\b${id}\\b`, 'g');
+  const escapedId = id.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  return new RegExp(`(?<!\\w)${escapedId}(?!\\w)`, 'g');
 }
 
 function selectorThing(id: string, doc: TextDocument) {
